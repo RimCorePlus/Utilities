@@ -19,4 +19,4 @@
 ## Legal
 Portions of the materials used to create this mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This mod is not official and is not endorsed by Ludeon.
 
-This mod includes code and textures from [Simple Utilities: Fridge](https://github.com/Owlchemist/simple-utilities-fridge) by Owlchemist, modified by boomer, used under the MIT License. All changes are released under the GPL-3.0 License.
+This mod includes code and textures from [Simple Utilities: Fridge](https://github.com/Owlchemist/simple-utilities-fridge) by Owlchemist, originally licensed under the MIT License. These assets have been modified by boomer. All changes and additions are released under the GPL-3.0 License.
