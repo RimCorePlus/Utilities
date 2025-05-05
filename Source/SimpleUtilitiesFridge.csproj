@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Product>Simple Utilities Fridge</Product>
+		<Product>simple-utilities-fridge</Product>
 		<AssemblyVersion>2.0.7</AssemblyVersion>
-		<Version>1.4</Version>
+		<Version>1.5</Version>
 		<Copyright>$([System.DateTime]::Now.ToString('yyyy'))</Copyright>
-		<Company>Owlchemist</Company>
-		<TargetFramework>net48</TargetFramework>
+		<Company>boomer</Company>
+		<TargetFramework>net472</TargetFramework>
 		<LangVersion>preview</LangVersion>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<BaseOutputPath>G:\SteamLibrary\steamapps\common\RimWorld\Mods\simple-utilities-fridge\1.5\Assemblies</BaseOutputPath>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
 		<OutputPath>..\..\..\Mods\$(Product)\$(Version)\Assemblies</OutputPath>
@@ -35,5 +36,19 @@
 	</ItemGroup>
 	<ItemGroup>
 		<Publicize Include="Assembly-CSharp" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="0Harmony">
+	    <HintPath>..\..\..\..\..\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="Assembly-CSharp">
+	    <HintPath>..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="UnityEngine">
+	    <HintPath>..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
 	</ItemGroup>
 </Project>

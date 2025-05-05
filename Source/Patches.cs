@@ -53,19 +53,22 @@ namespace SimpleFridge
 		}
     }
 
-	//Update cache if a map is removed
-	[HarmonyPatch(typeof(Game), nameof(Game.DeinitAndRemoveMap_NewTemp))]
-	class Patch_DeinitAndRemoveMap
-	{
-		static void Postfix(Map map)
-		{
-			if (map != null && utilityCache.Remove(map.uniqueID) && Prefs.DevMode) Log.Message("[Simple Utilities: Fridge] Map removal detected.");
-		}
-	}
+    //Update cache if a map is removed
+    [HarmonyPatch(typeof(Game), nameof(Game.DeinitAndRemoveMap))]
+    class Patch_DeinitAndRemoveMap
+    {
+        static void Postfix(Map map)
+        {
+            if (map != null && utilityCache.Remove(map.uniqueID) && Prefs.DevMode)
+            {
+                Log.Message("[Simple Utilities: Fridge] Map removal detected.");
+            }
+        }
+    }
 
 
-	//This handles fridge grid cache construction
-	[HarmonyPatch(typeof(Map), nameof(Map.ConstructComponents))]
+    //This handles fridge grid cache construction
+    [HarmonyPatch(typeof(Map), nameof(Map.ConstructComponents))]
 	class Patch_ConstructComponents
 	{
 		static void Postfix(Map __instance)
