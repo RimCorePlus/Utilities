@@ -1,10 +1,11 @@
 <ModMetaData>
 	<packageId>coreplus.utilities</packageId>
-	<name>[CorePlus] Utilities</name>
+	<name>[RCP] Utilities</name>
 	<author>boomer</author>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
+	<url>https://github.com/RimCorePlus/Utilities</url>
 	<modDependencies>
 		<li>
 			<packageId>adaptive.storage.framework</packageId>
