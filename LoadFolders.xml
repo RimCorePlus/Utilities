@@ -4,6 +4,6 @@
         <li>1.5</li>
         <li>Common</li>
         <!--mods-->
-        <li IfModActive="coreplus.industry.lumber">Mods/Industry Lumber/1.5</li>
+        <li IfModActive="coreplus.industry">Mods/Industry Lumber/1.5</li>
     </v1.5>
 </loadFolders>
