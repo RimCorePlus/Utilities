@@ -6,13 +6,6 @@
 		<li>1.5</li>
 	</supportedVersions>
 	<url>https://github.com/RimCorePlus/Utilities</url>
-	<modDependencies>
-		<li>
-			<packageId>adaptive.storage.framework</packageId>
-			<displayName>Adaptive Storage Framework</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3033901359</steamWorkshopUrl>
-		</li>
-	</modDependencies>
 	<loadAfter>
 		<li>adaptive.storage.framework</li>
 	</loadAfter>

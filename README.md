@@ -13,8 +13,10 @@
 ![](About/Preview.png)\
 [![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0)
 
-## Changes
-- Adds fridges from [Simple Utilities: Fridge](https://github.com/Owlchemist/simple-utilities-fridge) by Owlchemist, updated for 1.5 with adjustments using Adaptive Storage Framework
+## Content
+- Adds fridges from [Simple Utilities: Fridge](https://github.com/Owlchemist/simple-utilities-fridge) by Owlchemist, updated for 1.5.
+- With [Adaptive Storage Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3297307747) installed, fridge contents are hidden.
+- Adds a coal-fueled generator if [[RCP] Industry](https://github.com/rimcoreplus/industry) is enabled.
 
 ## Legal
 Portions of the materials used to create this mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This mod is not official and is not endorsed by Ludeon.
