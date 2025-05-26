@@ -7,8 +7,6 @@
 		<thingClass>Building_Storage</thingClass>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawOffsetNorth>(0,0,-0.1)</drawOffsetNorth>
-			<drawOffsetSouth>(0,0,0.1)</drawOffsetSouth>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -82,6 +80,12 @@
 		<designationCategory>Temperature</designationCategory>
 		<designatorDropdown>CorePlus_Fridge</designatorDropdown>
 		<clearBuildingArea>true</clearBuildingArea>
+		<statBases>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
 	</ThingDef>
 	<!--single fridge-->
 	<ThingDef ParentName="CorePlus_FridgeBase">
@@ -101,7 +105,6 @@
 			<MaxHitPoints>70</MaxHitPoints>
 			<Mass>15</Mass>
 			<WorkToBuild>1500</WorkToBuild>
-			<Flammability>0.5</Flammability>
 		</statBases>
 		<size>(1,1)</size>
 		<comps>
@@ -128,7 +131,6 @@
 			<MaxHitPoints>140</MaxHitPoints>
 			<Mass>20</Mass>
 			<WorkToBuild>2800</WorkToBuild>
-			<Flammability>0.5</Flammability>
 		</statBases>
 		<size>(2,1)</size>
 		<comps>

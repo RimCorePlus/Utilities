@@ -8,8 +8,6 @@
                     <texPath>Things/Building/Misc/fridge</texPath>
                     <drawSize>(1.2,1.2)</drawSize>
                     <graphicClass>Graphic_Multi</graphicClass>
-                    <drawOffsetNorth>(0,0,-0.1)</drawOffsetNorth>
-                    <drawOffsetSouth>(0,0,0.1)</drawOffsetSouth>
                     <damageData>
                         <cornerTL>Damage/Corner</cornerTL>
                         <cornerTR>Damage/Corner</cornerTR>
@@ -31,8 +29,6 @@
                     <texPath>Things/Building/Misc/fridgeWide</texPath>
                     <drawSize>(2.4,1.2)</drawSize>
                     <graphicClass>Graphic_Multi</graphicClass>
-                    <drawOffsetNorth>(0,0,-0.1)</drawOffsetNorth>
-                    <drawOffsetSouth>(0,0,0.1)</drawOffsetSouth>
                     <damageData>
                         <cornerTL>Damage/Corner</cornerTL>
                         <cornerTR>Damage/Corner</cornerTR>
