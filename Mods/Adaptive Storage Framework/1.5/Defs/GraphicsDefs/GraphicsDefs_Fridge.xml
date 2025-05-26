@@ -1,7 +1,7 @@
 <Defs>
     <AdaptiveStorage.GraphicsDef>
-        <defName>CorePlus_RefrigeratorASF</defName>
-        <targetDef>CorePlus_Refrigerator</targetDef>
+        <defName>RCP_RefrigeratorASF</defName>
+        <targetDef>RCP_Refrigerator</targetDef>
         <graphics>
             <li>
                 <graphicData>
@@ -21,8 +21,8 @@
         <showContainedItems>false</showContainedItems>
     </AdaptiveStorage.GraphicsDef>
     <AdaptiveStorage.GraphicsDef>
-        <defName>CorePlus_DoublerefrigeratorASF</defName>
-        <targetDef>CorePlus_Doublerefrigerator</targetDef>
+        <defName>RCP_DoublerefrigeratorASF</defName>
+        <targetDef>RCP_Doublerefrigerator</targetDef>
         <graphics>
             <li>
                 <graphicData>

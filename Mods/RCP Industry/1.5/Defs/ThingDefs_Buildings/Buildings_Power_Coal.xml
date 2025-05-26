@@ -50,7 +50,7 @@
                 <fuelCapacity>50.0</fuelCapacity>
                 <fuelFilter>
                     <thingDefs>
-                        <li>CorePlus_Coal</li>
+                        <li>RCP_Coal</li>
                     </thingDefs>
                 </fuelFilter>
                 <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>

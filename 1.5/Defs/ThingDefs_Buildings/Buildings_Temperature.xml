@@ -1,9 +1,9 @@
 <Defs>
 	<DesignatorDropdownGroupDef>
-		<defName>CorePlus_Fridge</defName>
+		<defName>RCP_Fridge</defName>
 	</DesignatorDropdownGroupDef>
 	<!--base-->
-	<ThingDef Name="CorePlus_FridgeBase" ParentName="FurnitureBase" Abstract="True">
+	<ThingDef Name="RCP_FridgeBase" ParentName="FurnitureBase" Abstract="True">
 		<thingClass>Building_Storage</thingClass>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -78,7 +78,7 @@
 			<li Class="SimpleFridge.Fridge" />
 		</modExtensions>
 		<designationCategory>Temperature</designationCategory>
-		<designatorDropdown>CorePlus_Fridge</designatorDropdown>
+		<designatorDropdown>RCP_Fridge</designatorDropdown>
 		<clearBuildingArea>true</clearBuildingArea>
 		<statBases>
 			<Flammability>0.5</Flammability>
@@ -88,8 +88,8 @@
 		</comps>
 	</ThingDef>
 	<!--single fridge-->
-	<ThingDef ParentName="CorePlus_FridgeBase">
-		<defName>CorePlus_Refrigerator</defName>
+	<ThingDef ParentName="RCP_FridgeBase">
+		<defName>RCP_Refrigerator</defName>
 		<label>refrigerator</label>
 		<description>A powered, sealed container which can be used to freeze and store perishable food.</description>
 		<graphicData>
@@ -115,8 +115,8 @@
 		</comps>
 	</ThingDef>
 	<!--double fridge-->
-	<ThingDef ParentName="CorePlus_FridgeBase">
-		<defName>CorePlus_Doublerefrigerator</defName>
+	<ThingDef ParentName="RCP_FridgeBase">
+		<defName>RCP_Doublerefrigerator</defName>
 		<label>doublewide refrigerator</label>
 		<description>A powered, sealed container which can be used to freeze and store perishable food. This unit is double the size.</description>
 		<graphicData>
