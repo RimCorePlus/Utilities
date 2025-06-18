@@ -7,4 +7,12 @@
         <li IfModActive="adaptive.storage.framework">Mods/Adaptive Storage Framework/1.5</li>
         <li IfModActive="RCP.Industry">Mods/RCP Industry/1.5</li>
     </v1.5>
+    <v1.6>
+        <li>/</li>
+        <li>1.6</li>
+        <li>Common</li>
+        <!--mods-->
+        <li IfModActive="adaptive.storage.framework">Mods/Adaptive Storage Framework/1.6</li>
+        <li IfModActive="RCP.Industry">Mods/RCP Industry/1.6</li>
+    </v1.6>
 </loadFolders>
