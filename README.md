@@ -16,7 +16,7 @@
 [![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0)
 
 > [!IMPORTANT]
-> Integrated with [Adaptive Storage Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3033901359) (optional).
+> Integrated with [Adaptive Storage Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3033901359) (optional).\
 > Integrated with [[RCP] Industry](https://github.com/rimcoreplus/industry) (optional).
 
 ## Additions
