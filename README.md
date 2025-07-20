@@ -8,15 +8,20 @@
 [badge-dlc-biotech]: https://img.shields.io/badge/DLC-Biotech-mediumturquoise
 <!--![Supports Anomaly][badge-dlc-anomaly] supports Anomaly DLC-->
 [badge-dlc-anomaly]: https://img.shields.io/badge/DLC-Anomaly-darkseagreen
+<!--![Supports Odyssey][badge-dlc-odyssey] supports Odyssey DLC-->
+[badge-dlc-odyssey]: https://img.shields.io/badge/DLC-Odyssey-mediumpurple
 
 # [RCP] Utilities
 ![](About/Preview.png)\
 [![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0)
 
-## Content
-- Adds fridges from [Simple Utilities: Fridge](https://github.com/Owlchemist/simple-utilities-fridge) by Owlchemist, updated for 1.5.
-- With [Adaptive Storage Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3297307747) installed, fridge contents are hidden.
-- Adds a coal-fueled generator if [[RCP] Industry](https://github.com/rimcoreplus/industry) is enabled.
+> [!IMPORTANT]
+> Integrated with [Adaptive Storage Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=3033901359) (optional).
+> Integrated with [[RCP] Industry](https://github.com/rimcoreplus/industry) (optional).
+
+## Additions
+- [Simple Utilities: Fridge](https://github.com/Owlchemist/simple-utilities-fridge) by Owlchemist, rebalanced and integrated with ASF (optional).
+- Coal-fueled generator with [RCP] Industry enabled.
 
 ## Legal
 Portions of the materials used to create this mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This mod is not official and is not endorsed by Ludeon.
