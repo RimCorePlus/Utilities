@@ -86,6 +86,9 @@
 		<comps>
 			<li Class="CompProperties_Flickable"/>
 		</comps>
+		<researchPrerequisites>
+			<li>RCP_Fridge</li>
+		</researchPrerequisites>
 	</ThingDef>
 	<!--single fridge-->
 	<ThingDef ParentName="RCP_FridgeBase">

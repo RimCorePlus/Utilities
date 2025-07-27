@@ -1,0 +1,17 @@
+<Defs>
+    <ResearchProjectDef>
+        <defName>RCP_Fridge</defName>
+        <label>refrigerator</label>
+        <description>Construct compact refrigerators to safely store food and other perishables.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>AirConditioning</li>
+            <li>MicroelectronicsBasics</li>
+        </prerequisites>
+        <researchViewX>14.00</researchViewX>
+        <researchViewY>0.60</researchViewY>
+        <generalRules />
+    </ResearchProjectDef>
+</Defs>
